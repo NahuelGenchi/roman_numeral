@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffe6a7;
+  .body-container {
+    width: 95vw;
+    margin: 0 auto;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+  }
+}
