@@ -1,0 +1,64 @@
+.main {
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+
+    input[type=number] {
+      width: 80%;
+      height: 3rem;
+      padding: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+
+      font-size: 1rem;
+
+      background-color: #413834;
+      color: white;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: rgb(236, 236, 236);
+        font-size: 1rem;
+      }
+    }
+
+    button {
+      width: 20%;
+      height: 3rem;
+      padding: 1rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: #523520;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+
+      ion-icon {
+        font-size: 1.7rem;
+      }
+    }
+  }
+  .output-container {
+    width: 100%;
+    min-height: 3.3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    font-weight: 500;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    background-color: #9c7f33;
+    color: white;
+  }
+}
