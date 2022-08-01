@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 
   .github-container {
     padding: 0.5rem 0;
@@ -13,6 +13,18 @@
     
     ion-icon {
       font-size: 1.3rem;
+    }
+  }
+}
+
+@media screen and (min-height: 740px) {
+  .footer {
+    .github-container {
+      font-size: 1.1rem;
+
+      ion-icon {
+        font-size: 1.4rem;
+      }
     }
   }
 }

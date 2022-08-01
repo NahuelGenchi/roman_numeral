@@ -1,8 +1,8 @@
 .header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     font-size: 2.5rem;
     font-weight: 800;
@@ -12,4 +12,15 @@
 
     font-weight: 500;
   }
+}
+
+@media screen and (min-height: 740px) {
+  .header {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  } 
 }
