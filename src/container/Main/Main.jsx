@@ -53,7 +53,7 @@ const Main = function() {
       </div>
       <div className="output-container">
         <span>
-          {message}
+          {message === "" ? "Roman numeral..." : message}
         </span>
       </div>
     </main>
