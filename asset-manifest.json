@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/roman_numeral_converter/static/css/main.ec8c0445.css",
+    "main.js": "/roman_numeral_converter/static/js/main.2d6d8c9f.js",
+    "index.html": "/roman_numeral_converter/index.html",
+    "main.ec8c0445.css.map": "/roman_numeral_converter/static/css/main.ec8c0445.css.map",
+    "main.2d6d8c9f.js.map": "/roman_numeral_converter/static/js/main.2d6d8c9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8c0445.css",
+    "static/js/main.2d6d8c9f.js"
+  ]
+}
