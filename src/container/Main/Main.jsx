@@ -4,6 +4,7 @@ import "./Main.scss";
 const Main = function() {
   const [num, setNum] = useState('');
   const [message, setMessage] = useState('');
+  const [myArab, setMyArab] = useState('');
   const inputRef = useRef(null);
   const min = 1;
   const max = 4999;
@@ -41,6 +42,7 @@ const Main = function() {
 
   function handleClick() {
     let myInput = inputRef.current.value;
+    setMyArab(myInput);
     setMessage(romanize(myInput));
     setNum("");
   };
@@ -53,7 +55,7 @@ const Main = function() {
       </div>
       <div className="output-container">
         <span>
-          {message === "" ? "Roman numeral..." : message}
+          {message === "" ? "Roman numeral..." : `${myArab} = ${message}`}
         </span>
       </div>
     </main>
