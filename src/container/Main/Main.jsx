@@ -7,7 +7,7 @@ const Main = function() {
   const [myArab, setMyArab] = useState('');
   const inputRef = useRef(null);
   const min = 1;
-  const max = 4999;
+  const max = 3999;
 
   const handleNumChange = function(event) {
     const value = Math.max(min, Math.min(max, Number(event.target.value)));
