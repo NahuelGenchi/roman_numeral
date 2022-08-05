@@ -15,8 +15,6 @@
 }
 
 body {
-  height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +26,17 @@ body {
   .body-container {
     width: 80vw;
     margin: 0 auto;
+    margin-top: 10vh;
     max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+
+    .body-container {
+      margin-top: inherit;
+    }
   }
 }
