@@ -10,8 +10,10 @@ const Main = function() {
   const max = 3999;
 
   const handleNumChange = function(event) {
+    //const value = Math.max(min, Math.min(max, Number(event.target.value)));
     const value = Math.max(min, Math.min(max, Number(event.target.value)));
-    setNum(value);
+    console.log(event.target.value);
+    setNum(event.target.value === "" ? "" : value);
   }
   function romanize(num) {
     let lookup = {
