@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/roman_numeral/static/css/main.f9baae27.css",
+    "main.css": "/roman_numeral/static/css/main.f394adf3.css",
     "main.js": "/roman_numeral/static/js/main.f0353f43.js",
     "index.html": "/roman_numeral/index.html",
-    "main.f9baae27.css.map": "/roman_numeral/static/css/main.f9baae27.css.map",
+    "main.f394adf3.css.map": "/roman_numeral/static/css/main.f394adf3.css.map",
     "main.f0353f43.js.map": "/roman_numeral/static/js/main.f0353f43.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9baae27.css",
+    "static/css/main.f394adf3.css",
     "static/js/main.f0353f43.js"
   ]
 }
